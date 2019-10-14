@@ -1,6 +1,6 @@
 var fs = require('fs');
 var debug = require('debug')('recursive-uglifyjs');
-var uglify = require('uglify-js');
+var uglify = require('terser');
 var finder = require('finder-on-steroids');
 
 /**
